@@ -1,0 +1,19 @@
+{
+  "name": "solcarlease",
+  "version": "1.0.0",
+  "description": "Solana Car Leasing DApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hvngover/SolCarLease.git"
+  },
+  "author": "SE-2215",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hvngover/SolCarLease/issues"
+  },
+  "homepage": "https://github.com/hvngover/SolCarLease#readme"
+}
