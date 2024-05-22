@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center text vertically */
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold; /* Corrected: no need for quotes around bold */
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.navigation {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigationItem {
+    margin-right: 1rem; /* Spacing between navigation items */
+}
+
+.navLink {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.2s ease;
+}
+
+.navLink:hover {
+    color: #007bff;
+}
