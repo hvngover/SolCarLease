@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import '../app/globals.css'
-import Navbar from "@/Navbar/Navbar";
+import '../app/globals.css';
+import Navbar from "@/components/Navbar";
 
 export default function Payment() {
     const [leaseId, setLeaseId] = useState('');
@@ -11,6 +11,9 @@ export default function Payment() {
         try {
             const response = await axios.post('/api/payment', { leaseId, amount });
             console.log('Payment response:', response.data);
+            // Reset form fields after successful payment
+            setLeaseId('');
+            setAmount('');
         } catch (error) {
             console.error('Error making payment:', error);
         }

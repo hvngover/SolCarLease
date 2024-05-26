@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import '../app/globals.css';
-import Navbar from "@/Navbar/Navbar";
+import Navbar from "@/components/Navbar";
 
 export default function LeaseAgreements() {
     const [leaseId, setLeaseId] = useState('');

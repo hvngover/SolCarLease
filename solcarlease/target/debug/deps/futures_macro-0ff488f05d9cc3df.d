@@ -1,0 +1,9 @@
+C:\Users\QoidynBasy\Desktop\SolCarLease\solcarlease\target\debug\deps\futures_macro-0ff488f05d9cc3df.dll: C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\lib.rs C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\executor.rs C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\join.rs C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\select.rs C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\stream_select.rs
+
+C:\Users\QoidynBasy\Desktop\SolCarLease\solcarlease\target\debug\deps\futures_macro-0ff488f05d9cc3df.d: C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\lib.rs C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\executor.rs C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\join.rs C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\select.rs C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\stream_select.rs
+
+C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\lib.rs:
+C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\executor.rs:
+C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\join.rs:
+C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\select.rs:
+C:\Users\QoidynBasy\.cargo\registry\src\index.crates.io-6f17d22bba15001f\futures-macro-0.3.30\src\stream_select.rs:
