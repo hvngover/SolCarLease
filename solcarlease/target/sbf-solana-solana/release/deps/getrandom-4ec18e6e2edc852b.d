@@ -1,0 +1,10 @@
+/mnt/c/Users/QoidynBasy/Desktop/SolCarLease/solcarlease/target/sbf-solana-solana/release/deps/libgetrandom-4ec18e6e2edc852b.rmeta: /home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/lib.rs /home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/error.rs /home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/util.rs /home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/error_impls.rs
+
+/mnt/c/Users/QoidynBasy/Desktop/SolCarLease/solcarlease/target/sbf-solana-solana/release/deps/libgetrandom-4ec18e6e2edc852b.rlib: /home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/lib.rs /home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/error.rs /home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/util.rs /home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/error_impls.rs
+
+/mnt/c/Users/QoidynBasy/Desktop/SolCarLease/solcarlease/target/sbf-solana-solana/release/deps/getrandom-4ec18e6e2edc852b.d: /home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/lib.rs /home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/error.rs /home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/util.rs /home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/error_impls.rs
+
+/home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/lib.rs:
+/home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/error.rs:
+/home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/util.rs:
+/home/qoidynbasy/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.1.16/src/error_impls.rs:
