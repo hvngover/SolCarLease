@@ -3814,6 +3814,7 @@ dependencies = [
 name = "solcarlease"
 version = "0.1.0"
 dependencies = [
+ "arrayref",
  "borsh 1.5.0",
  "solana-client",
  "solana-sdk",

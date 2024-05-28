@@ -12,7 +12,6 @@ export default function Lease() {
         try {
             const response = await axios.post('/api/lease', {carId, lesseeId, durationMonths});
             console.log('Lease response:', response.data);
-            // Reset form fields after successful lease
             setCarId('');
             setLesseeId('');
             setDurationMonths('');
