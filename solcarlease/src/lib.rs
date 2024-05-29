@@ -5,7 +5,6 @@ use solana_sdk::{
     account_info::{next_account_info, AccountInfo},
     entrypoint,
     entrypoint::ProgramResult,
-    msg,
     pubkey::Pubkey,
     program_error::ProgramError,
     program_pack::{IsInitialized, Pack, Sealed},
