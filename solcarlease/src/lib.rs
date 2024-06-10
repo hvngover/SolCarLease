@@ -3,31 +3,31 @@ pub mod types;
 
 use solana_sdk::{
     account_info::{next_account_info, AccountInfo},
-    entrypoint,
     entrypoint::ProgramResult,
     pubkey::Pubkey,
     program_error::ProgramError,
     program_pack::{IsInitialized, Pack, Sealed},
 };
+
+use wasm_bindgen::prelude::*;
 use crate::errors::ContractError;
 use crate::types::{Car, Lease};
 
-entrypoint!(process_instruction);
-
+#[wasm_bindgen]
 pub fn process_instruction(
     program_id: &Pubkey,
     accounts: &[AccountInfo],
     instruction_data: &[u8],
-) -> ProgramResult {
+) -> Result<(), JsValue> {
     let instruction = instruction_data[0];
 
     match instruction {
-        0 => add_car(program_id, accounts, &instruction_data[1..]),
-        1 => initiate_lease(program_id, accounts, &instruction_data[1..]),
-        2 => make_payment(program_id, accounts, &instruction_data[1..]),
-        3 => terminate_lease(program_id, accounts, &instruction_data[1..]),
-        4 => return_car(program_id, accounts, &instruction_data[1..]),
-        _ => Err(ProgramError::InvalidInstructionData),
+        0 => add_car(program_id, accounts, &instruction_data[1..]).map_err(|e| JsValue::from_str(&e.to_string())),
+        1 => initiate_lease(program_id, accounts, &instruction_data[1..]).map_err(|e| JsValue::from_str(&e.to_string())),
+        2 => make_payment(program_id, accounts, &instruction_data[1..]).map_err(|e| JsValue::from_str(&e.to_string())),
+        3 => terminate_lease(program_id, accounts, &instruction_data[1..]).map_err(|e| JsValue::from_str(&e.to_string())),
+        4 => return_car(program_id, accounts, &instruction_data[1..]).map_err(|e| JsValue::from_str(&e.to_string())),
+        _ => Err(JsValue::from_str("Invalid instruction data")),
     }
 }
 

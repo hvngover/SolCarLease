@@ -1,4 +1,3 @@
-/** @type {import('next').NextConfig} */
 const WasmPackPlugin = require('@wasm-tool/wasm-pack-plugin');
 const path = require('path');
 

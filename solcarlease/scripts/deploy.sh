@@ -1,4 +1,6 @@
-#!/bin/bash
+wsl
+
+cd ..
 
 # Compile the program
 cargo build-bpf

@@ -13,6 +13,8 @@ pub enum ContractError {
     UnauthorizedAccess,
     #[error("Invalid input")]
     InvalidInput,
+    #[error("Stack overflow")]
+    StackOverflow
 }
 
 impl From<ContractError> for ProgramError {
